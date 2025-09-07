@@ -71,6 +71,13 @@
 .icons a:hover {
   color: #007BFF;
 }
+
+.incenter {
+   position: relative;
+   text-transform: capitalize;
+   text-align: center;
+   margin: auto;
+}
   </style>
 </head>
 
@@ -79,7 +86,7 @@
 <!--Api Downloads, You Can Copy Here!-->
 <body>
     <h1>Downloads Mingw-w64</h1>
-    <a class="download-btn" href="https://drive.google.com/file/d/1ATk-Gs24DSNFgaZRm9yhTw_43ccBgEyr/view?usp=drivesdk" target="_blank">
+    <a class="download-btn" href="https://drive.google.com/file/d/1O37Hjqj5iLGip1w2Q9pR35MvVFsR6-_b/view?usp=sharing" target="_blank">
         <i class="fa-brands fa-google-drive" style="margin-right: 8px;"></i>
         Downloads From Google Drive
       </a>
@@ -119,15 +126,9 @@
 
 
 <!--Email Contact-->
-<h2 class='major' style="font-size:20px;">Get In Touch With Our Team!</h2>
-<div id="My_Email" style="text-align:center; color:white; padding:10px; font-size: 18px;"></div>
-<script>
-  const user = "rezaxoneslimited";
-  const domain = "gmail";
-  const email = user + "@" + domain;
-  const container = document.getElementById("My_Email");
-  container.innerHTML = `<a href="mailto:${email}" style="color:#000000;">${email}.com</a>`;
-</script>
+    <h2 class='incenter' style="font-size:20px;">Get In Touch With Our Team!</h2>
+    <div id="My_Email" class="myEmail"></div>
+    <script src="/script/script.js"></script>
 
 
 

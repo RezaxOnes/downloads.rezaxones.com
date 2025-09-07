@@ -4,8 +4,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' rel='stylesheet'/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css' rel='stylesheet'/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
         <title>Navigation Website</title>
     <style>
              /*SetUp Fonts / icon */
@@ -53,6 +53,13 @@
       font-size: 14px;
       color: #888;
     }
+
+.incenter {
+   position: relative;
+   text-transform: capitalize;
+   text-align: center;
+   margin: auto;
+}
   </style>
 </head>
 
@@ -119,19 +126,13 @@
 
 <!--ReadMe-->
 <h2 class="major" style="font-size:20px;">
-  <a href="https://rezaxones.github.io/Web-Downloads/Read_Me/README.md" target="_blank" style="color: #000000;">If this is your first time visiting this website please make sure you have read The ReadMe</a>
+  <a href="https://rezaxones.github.io/Web-Downloads/README.md" target="_blank" style="color: #000000;">If this is your first time visiting this website please make sure you have read The ReadMe</a>
 </h2>
 
 <!--Email Contact-->
-<h2 class='major' style="font-size:20px;">Get In Touch With Our Team!</h2>
-<div id="My_Email" style="text-align:center; color:white; padding:10px; font-size: 18px;"></div>
-<script>
-  const user = "rezaxoneslimited";
-  const domain = "gmail";
-  const email = user + "@" + domain;
-  const emailcontainer = document.getElementById("My_Email");
-  emailcontainer.innerHTML = `<a href="mailto:${email}" style="color:#000000;">${email}.com</a>`;
-</script>
+<h2 class='incenter' style="font-size:20px;">Get In Touch With Our Team!</h2>
+<div id="My_Email" class="myEmail"></div>
+<script src="/script/script.js"></script>
 
 
 
