@@ -24,12 +24,14 @@ Trình Biên Dịch MinRW Điều Khoản
 4. Code::Block: https://www.codeblocks.org
 5. Trình Biên Dịch MinRW: https://www.mingw-w64.org
 6. F-Droid: https://f-droid.org
-7. Floating Clock VN: By Me
+7. Arch Linux: https://archlinux.org
+8. Ubuntu: https://ubuntu.com/
+9. Floating Clock VN: By Me
 # Hướng-Dẫn-Tải-Apk
 Đây là hướng dẫn tải APK
 ....Coming Soon.....
 # Lời nói cuối cùng
 Bạn hoàn toàn có thể tự nguyện ủng hộ dự án bằng cách liên hệ với chủ dự án.
-Email: RezaxOneslimited@gmail.com
+Email: rezaxonesstudios@gmail.com
 # Lần cuối được cập nhập
 Thứ 7, Ngày 24 Tháng 5 Năm 2025 ( Lúc 12: 00 "UTC + 7")

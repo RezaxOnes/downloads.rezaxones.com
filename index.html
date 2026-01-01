@@ -1,155 +1,55 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <!--API Icon / Font-->
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css' rel='stylesheet'/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
-        <title>Navigation Website</title>
-    <style>
-             /*SetUp Fonts / icon */
-    body {
-      font-family: 'Roboto', sans-serif;
-      background: #f4f4f4;
-      text-align: center;
-      padding: 60px 20px;
-      margin: 0;
-      opacity: 0;
-      transition: opacity 1s ease-in;
-    }
-    body.loaded {
-      opacity: 1;
-    }
-    h1 {
-      color: #222;
-      font-size: 28px;
-      margin-bottom: 16px;
-    }
-    p {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 30px;
-    }
-    /*Color Icon Dieu Huong*/
-    .dieuhuong-btn {
-      background-color: #34eb34;
-      color: white;
-      border: none;
-      font-size: 18px;
-      padding: 12px 28px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .dieuhuong-btn:hover {
-      background-color: #008000;
-    }
-    /*End*/
-    footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #888;
-    }
 
-.incenter {
-   position: relative;
-   text-transform: capitalize;
-   text-align: center;
-   margin: auto;
-}
-.myEmail {
-   text-align:center; 
-   color:white;
-   padding:10px;
-   font-size: 18px;
-}
-  </style>
+<head>
+  <title>Shell Mirror / Downloads</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://rezaxones.com/storage/rezaxones_icon.png" rel="icon" type="image/png" />
+  <!--Open Graph-->
+  <meta property="og:url" content="https://rezaxones.com" />
+  <meta property="og:title" content="RezaxOnes" />
+  <meta property="og:description" content="Trang chủ của website rezaxones.com" />
+  <meta property="og:image" content="https://rezaxones.com/storage/rezaxones_image.png" />
+  <!---->
+  <link href="https://downloads.rezaxones.com/style/main.css" rel="stylesheet" /> 
 </head>
 
-
-
-<!--Link APK Dieu Huong-->
 <body>
-    <h1>Home Downloads APK</h1>
-    <div id="link-container"></div>
-    <script>
-        
-//Class Game
-     class Game {
-      constructor(name, url) {
-        this.name = name;
-        this.url = url;
-      }
-
-// Render Call From <a>
-      render() {
-        const a = document.createElement("a"); //<a>
-        a.className = "dieuhuong-btn"; // class = "dieuhuong-btn"
-        a.href = this.url; // call from class Game url
-        a.target = "_blank"; // target = "_blank"
-        a.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 8px;"></i> ${this.name}`; //call from <i> and write from class Game = Name
-        return a; //</a>
-      }
-    }
+  <h1>Downloads</h1>
+  <div id="link-container"></div>
+  <script src="https://downloads.rezaxones.com/script/add-a-link.js"></script>
 
 
-
-
-
-
-//API Dieu Huong
-    const gameList = [
-        new Game("Limbus Company", "https://rezaxones.github.io/Web-Downloads/Limbus-Company/index.html"),
-        new Game("Blue Archive", "https://rezaxones.github.io/Web-Downloads/Blue-Archive/index.html"),
-        new Game("F-Droid", "https://rezaxones.github.io/Web-Downloads/F-Droid/index.html"),
-        new Game("Floating Clock VN", "https://rezaxones.github.io/Web-Downloads/Floating-Clock-Vn/index.html"),
-        new Game("SAI", "https://rezaxones.github.io/Web-Downloads/Split-APKs-Installer/index.html"),
-        new Game("Code::Blocks", "https://rezaxones.github.io/Web-Downloads/Code-Blocks/index.html"),
-        new Game("MinRW", "https://rezaxones.github.io/Web-Downloads/MinRW/index.html")
+  <script>
+    const list = [
+    //new addLink("Name", "Link address"),
+      new addLink("Ubuntu", "https://downloads.rezaxones.com/ubuntu/ubuntu.html"),
+      new addLink("Arch Linux", "https://downloads.rezaxones.com/arch-linux/archlinux.html"),
+      new addLink("Floating Clock VN", "https://downloads.rezaxones.com/Floating-Clock-VN/floating_clock_VN.html")
     ];
-//End
+  </script>
 
 
-
-
-    const container = document.getElementById("link-container");
-
-    gameList.forEach(game => {
-      const element = game.render(); //call from render
-      container.appendChild(element);
-      container.appendChild(document.createElement("br")); //<br>
-      container.appendChild(document.createElement("br")); //<br>
-    });
- </script>
-
-  <!--Cre-->
+  <script src="https://downloads.rezaxones.com/script/list-foreach.js"></script>
+  <p>Website Created By @RezaxOnes Limited - 2026</p>
+  <p>All Rights Reserved.</p>
   <footer>
-    © RezaxOnes Limited - Downloads Apks
+  <h2 class="major" style="font-size:20px;">
+    <a href="https://downloads.rezaxones.com/README.md" target="_blank" style="color: #000000;">If this is
+      your first time visiting this website please make sure you have read The ReadMe</a>
+  </h2>
+  <a href="https://rezaxones.com/about.html" target="_blank"><i class="fa-solid fa-link"></i> About RezaxOnes</a>
+  <h2 class='incenter' style="font-size:20px;">Get In Touch With Our Team!</h2>
+  <div id="My_Email" class="myEmail"></div>
   </footer>
-
-<!--ReadMe-->
-<h2 class="major" style="font-size:20px;">
-  <a href="https://rezaxones.github.io/Web-Downloads/README.md" target="_blank" style="color: #000000;">If this is your first time visiting this website please make sure you have read The ReadMe</a>
-</h2>
-
-<!--Email Contact-->
-<h2 class='incenter' style="font-size:20px;">Get In Touch With Our Team!</h2>
-<div id="My_Email" class="myEmail"></div>
-<script src="/script/script.js"></script>
-
-
-
-
-
-<!--This is script loading body, pls don't remove it!-->
+  <!--Script-->
+  <script src="https://downloads.rezaxones.com/script/email.js"></script>
   <script>
     window.addEventListener('load', () => {
       document.body.classList.add('loaded');
     });
   </script>
-<!--End-->
 </body>
+
 </html>
