@@ -1,8 +1,8 @@
-const container = document.getElementById("link-container");
+const getcontainer = document.getElementById("link-container");
 
     list.forEach(addLink => {
       const element = addLink.render(); 
-      container.appendChild(element);
-      container.appendChild(document.createElement("br")); 
-      container.appendChild(document.createElement("br"));
+      getcontainer.appendChild(element);
+      getcontainer.appendChild(document.createElement("br")); 
+      getcontainer.appendChild(document.createElement("br"));
     });
