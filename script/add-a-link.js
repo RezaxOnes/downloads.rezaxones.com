@@ -10,5 +10,6 @@
         a.href = this.url; 
         a.target = "_blank";
         a.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 8px;"></i> ${this.name}`;
+        return a;
       }
     }
