@@ -34,4 +34,4 @@ Trình Biên Dịch MinRW Điều Khoản
 Bạn hoàn toàn có thể tự nguyện ủng hộ dự án bằng cách liên hệ với chủ dự án.
 Email: rezaxonesstudios@gmail.com
 # Lần cuối được cập nhập
-Thứ 7, Ngày 24 Tháng 5 Năm 2025 ( Lúc 12: 00 "UTC + 7")
+Thứ Năm, Ngày 1 Tháng 1 Năm 2026 ( Lúc 19: 00 "UTC + 7")
