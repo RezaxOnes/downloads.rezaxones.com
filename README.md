@@ -25,8 +25,11 @@ Trình Biên Dịch MinRW Điều Khoản
 5. Trình Biên Dịch MinRW: https://www.mingw-w64.org
 6. F-Droid: https://f-droid.org
 7. Arch Linux: https://archlinux.org
-8. Ubuntu: https://ubuntu.com/
+8. Ubuntu: https://ubuntu.com
 9. Floating Clock VN: By Me
+10. TestDisk: https://www.cgsecurity.org
+11. Ventoy: https://www.ventoy.net/en/index.html
+12. Rufus: https://rufus.ie/en/
 # Hướng-Dẫn-Tải-Apk
 Đây là hướng dẫn tải APK
 ....Coming Soon.....
