@@ -1,0 +1,6 @@
+1 - Tạo folder Tên_Cần_Tạo => Khai báo hai file tên .html và .css
+2 - Chỉnh index.html phần addLink thêm link mới tạo vào
+3 - Khai báo vào lastupdated.md
+4 - Khai báo vào README.md
+
+---- Đây là file nôị bộ không bị ignore để dự phòng cho việc mất github ----
